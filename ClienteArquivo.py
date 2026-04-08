@@ -43,7 +43,7 @@ def main():
             finally:
                 cliente.close()
             
-            break # Sai do loop após enviar, agora com o alinhamento correto!
+            break # Sai do loop após enviar
             
         elif opcao == '2':
             print("\nEncerrando o programa...")
