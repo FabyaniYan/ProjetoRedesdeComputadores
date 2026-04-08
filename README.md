@@ -68,6 +68,8 @@ python ClienteChatTCP.py
 Para encerrar a conversa:
 
 QUIT
+```
+
 
 ### 2. Transferência de arquivos
 
@@ -81,6 +83,5 @@ No terminal 2:
 
 ```bash
 python ClienteArquivo.py
-```
 
 Escolher o nome do arquivo.
