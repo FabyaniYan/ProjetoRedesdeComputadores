@@ -1,7 +1,7 @@
 import socket
 
 HOST = '127.0.0.1'
-PORTA = 10441 # Seus 5 primeiros dígitos do RA
+PORTA = 10441 # 5 primeiros dígitos do RA
 
 servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 servidor.bind((HOST, PORTA))
