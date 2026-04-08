@@ -56,32 +56,21 @@ O servidor recebe os dados e grava o conteúdo no arquivo `arquivo_recebido.txt`
 ### 1. Chat TCP
 
 No terminal 1:
-
-```bash
 python ServidorChatTCP.py
 
 No terminal 2:
-
-```bash
 python ClienteChatTCP.py
 
 Para encerrar a conversa:
-
 QUIT
-```
 
 
 ### 2. Transferência de arquivos
 
 No terminal 1:
-
-```bash
 python ServidorArquivo.py
-```
 
 No terminal 2:
-
-```bash
 python ClienteArquivo.py
 
-Escolher o nome do arquivo.
+Escolher o nome do arquivo para transferencia.
